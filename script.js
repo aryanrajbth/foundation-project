@@ -38,3 +38,15 @@ function improvePrompt() {
 
     result.innerText = "Improved Prompt:\n\n" + improvedPrompt;
 }
+
+function copyPrompt() {
+    const result = document.getElementById("result").innerText;
+
+    if (result.trim() === "") {
+        alert("Please improve a prompt first.");
+        return;
+    }
+
+    navigator.clipboard.writeText(result);
+    alert("Improved prompt copied!");
+}
