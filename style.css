@@ -35,3 +35,21 @@ button {
     padding: 15px;
     background: #eee;
 }
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+}
+
+.dark-mode textarea {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+.dark-mode #result {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
