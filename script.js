@@ -50,3 +50,6 @@ function copyPrompt() {
     navigator.clipboard.writeText(result);
     alert("Improved prompt copied!");
 }
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
