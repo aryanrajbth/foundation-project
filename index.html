@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Prompt Engineering Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>AI Prompt Engineering Assistant</h1>
+    <div class="container">
+        <h1>AI Prompt Engineering Assistant</h1>
 
-    <p>
-        Improve simple prompts using basic prompt engineering techniques.
-    </p>
+        <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
 
-    <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+        <button onclick="improvePrompt()">Improve Prompt</button>
 
-    <br><br>
-
-    <button onclick="improvePrompt()">Improve Prompt</button>
-
-    <h2>Improved Prompt</h2>
-
-    <p id="result">
-        Your improved prompt will appear here.
-    </p>
+        <div id="result"></div>
+    </div>
 
     <script src="script.js"></script>
 
